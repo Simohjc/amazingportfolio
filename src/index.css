@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+/*box-size for container*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*main contsainer */
+.container {
+  border: 1.2px solid var(--border);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--secondary);
+}
+
+.divider{
+  border-bottom: 0.5px solid var(--border);
+  margin: 3rem 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: initial;
+  transition: all 0.3s ease;
+}
+a:hover{
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+:root {
+  --primary: #000;
+  --secondary: #0D1117;
+  --border: #272726;
+  --title: #fdfffc;
+  --bgheader: #495057;
+  --blue: #669bbc;
+}
+
+body {
+  background-color: var(--primary);
+  color: #fff
+}
+
+.border {
+  border: 6px solid red;
+}
+button {
+    all: unset;
+
+}
+button:hover {
+  cursor: pointer;
+}
+button:active{
+  scale: 0.45;
+}
