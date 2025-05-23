@@ -24,7 +24,7 @@ const Header = () => {
        {showModel && (
           <div className='fixed'>
           <ul className='model'>
-            <li><button className='icon-close' onClick={() => {setShowModel(false)}} /></li>
+            <li><button className='icon-cross' onClick={() => {setShowModel(false)}} /></li>
             <li><a href="">About</a></li>
             <li><a href="">Articles</a></li>
             <li><a href="">Projects</a></li>
