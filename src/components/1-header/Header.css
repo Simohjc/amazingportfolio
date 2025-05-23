@@ -4,7 +4,7 @@
 
 1-header elements with animation 
 2- icon buttons style
-
+3-media quiery for header
 */
 
 
@@ -114,6 +114,9 @@ header .icon-close:hover{
 }
 
 
+/*=================================
+      media quiery for header
+*/
 
 @media (max-width: 700px) {
     header.flex nav {
