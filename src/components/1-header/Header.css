@@ -1,3 +1,15 @@
+/*=================================
+      table content
+===================================
+
+1-header elements with animation 
+2- icon buttons style
+
+*/
+
+
+/*=================================
+      header elements with animation*/
 header ul {
     gap: 16px;
 
@@ -72,7 +84,8 @@ header div.fixed ul.model li:first-child {
     margin-top: 0.5rem;
 }
 
-/* icon button */
+/* =====================
+icon button */
 header .icon-menu, header .moon {
     background-color: var(--bgheader);
     height: 2.4rem;
