@@ -1,0 +1,81 @@
+/*==================================
+     Hero section styles
+====================================
+1- Hero section left-side
+2- animation right side
+*/
+
+
+
+
+
+/*====================================
+        Hero section left-side
+====================================*/
+
+section.hero {
+    margin-top: 3rem;
+}
+section.hero .icon-verified{
+   color: var(--blue);
+   font-size: 1.3rem;
+}
+section.hero .left-side {
+    flex-grow: 1;
+}
+section.hero .heropic {
+    width: 88px;
+    border-radius: 50%;
+    border: 1.5px solid #e0fbfc ;
+    padding: 1.5px;
+    box-shadow: 2px 2px 40px #ddf1f2 inset;
+    margin-right: 0.4rem;
+}
+
+section.hero h1.title {
+    font-size: 2.85rem;
+    line-height: 3.3rem;
+    margin: 24px 0;
+    color: var(--title);
+}
+section.hero p.sub-title {
+    color: #898a85;
+    font-size: 0.9rem;
+    line-height: 1.65rem;
+    margin-bottom: 32px;
+}
+
+section.hero .icons{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    color: #898a85;
+}
+@keyframes animenu {
+    0% {scale: 0;}   
+    100% {scale: 1;}
+}
+section.hero .icons .icon-instagram:hover {
+     color: #FF5722;
+     font-size: 2rem;
+     animation: animenu;
+     cursor: pointer;
+}
+section.hero .icons .icon-twitter:hover {
+    color: var(--blue);
+    font-size: 2rem;
+    animation: animenu;
+    cursor: pointer;
+}
+section.hero .icons .icon-github:hover {
+    font-size: 2rem;
+    animation: animenu;
+    cursor: pointer;
+}
+section.hero .icons .icon-linkedin:hover {
+    font-size: 2rem;
+    animation: animenu;
+    color: #0288D1;
+    cursor: pointer;
+}

@@ -1,0 +1,109 @@
+main.flex {
+    gap: 2rem;
+    align-items: start;
+}
+
+main section.left-section.flex {
+   flex-direction: column;
+    gap: 10px;
+}
+main section.left-section.flex button {
+    background-color: #495057;
+    width: 11rem;
+    padding: 0.75rem 0;
+    text-align: center;
+    font-size: 1.05rem;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+main section.left-section.flex button:hover{
+    opacity: 1;
+}
+main section.left-section.flex button.active{
+    opacity: 1;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    padding: 0.8rem 0;
+    border: 1px solid var(--blue);
+    border-radius: 5px;
+}
+.card {
+    border: 1px solid var(--border);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom left, #1a1f25, #4c5869);
+}
+.card img {
+    border-radius: 5px;
+}
+.card:hover {
+    border: 1px solid var(--blue);
+    rotate: 1deg;
+    scale: 1.02;
+    cursor: pointer;
+}
+
+
+
+
+.card .box {
+    padding: 1rem 0.4rem;
+}
+.card .box .title{
+    color: var(--title);
+}
+.card .box .subtitle {
+    color: #9b9d9f;
+    font-size: 0.8rem;
+    margin-top: 0.7rem;
+    margin-bottom: 1.2rem;
+}
+
+.card .box .icons {
+    justify-content: space-between;
+}
+.card .icon-link, .card .icon-github {
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+.card .icon-link:hover, .card .icon-github:hover {
+    font-size: 1.4rem;
+}
+.card a.link {
+    color: var(--blue);
+    gap: 0.5rem;
+    font-size: 1.1rem;
+    transition: 0.3s;
+    margin-right: 12px;
+}
+
+
+main.flex section.right-section.flex {
+    /*flex-grow: 1;*/
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+
+
+@media (max-width: 600px) {
+    main.flex {
+        flex-direction: column;
+    }
+    main section.left-section.flex {
+        width: 100%;
+    }
+    main section.left-section.flex button:hover{
+        opacity: 1;
+    }
+    main section.left-section.flex button {
+        width: 100%;
+    }
+    main section.right-section.flex{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
