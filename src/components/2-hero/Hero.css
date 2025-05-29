@@ -53,7 +53,8 @@ section.hero .icons{
     color: #898a85;
 }
 @keyframes animenu {
-    0% {scale: 0;}   
+    0% {scale: 0;}
+    50% {scale: 0.5;}   
     100% {scale: 1;}
 }
 section.hero .icons .icon-instagram:hover {
@@ -61,21 +62,25 @@ section.hero .icons .icon-instagram:hover {
      font-size: 2rem;
      animation: animenu;
      cursor: pointer;
+     transition: 0.4s;
 }
 section.hero .icons .icon-twitter:hover {
     color: var(--blue);
     font-size: 2rem;
     animation: animenu;
     cursor: pointer;
+    transition: 0.4s;
 }
 section.hero .icons .icon-github:hover {
     font-size: 2rem;
     animation: animenu;
     cursor: pointer;
+    transition: 0.4s;
 }
 section.hero .icons .icon-linkedin:hover {
     font-size: 2rem;
     animation: animenu;
     color: #0288D1;
     cursor: pointer;
+    transition: 0.4s;
 }

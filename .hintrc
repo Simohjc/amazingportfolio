@@ -7,5 +7,17 @@
     "not ie 11",
     "not ios_saf <= 18.2",
     "not safari <= 18.2"
-  ]
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "scrollbar-width",
+          "scrollbar-width: thin",
+          "scrollbar-color"
+        ]
+      }
+    ]
+  }
 }

@@ -2,12 +2,12 @@
 html {
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 /*box-size for container*/
-html {
-  box-sizing: border-box;
-}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -77,6 +77,52 @@ button:active{
   scale: 0.45;
 }
 
+
+/* Responsive Design scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #669bbc;
+  border: 3px solid var(--border);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #69efd4;
+  border-radius: 2px;
+  border: 3px solid var(--border);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #eb4664;
+}
+/* for firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #69efd4 var(--border);
+}
+
+.icon-circle-up{
+  position: fixed;
+  bottom: 2rem;
+  right: 3%;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #76d2ef;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px #eb4664;
+  transition: 0.3s;
+  
+}
+.circle:hover {
+  background-color: #f1a978;
+  color: #1f1e1e;
+  box-shadow: 0px 0px 10px #eb4664;
+}
  
 
 @media (max-width: 1000px) {
@@ -89,6 +135,12 @@ button:active{
   .container {
     width: 98%;
     padding: 0 1.7rem;
+  }
+  .icon-circle-up {
+    width: 2rem;
+    height: 2rem;
+    right: 1%;
+    opacity: 0.8;
   }
 }
 
