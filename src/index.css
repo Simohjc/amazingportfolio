@@ -56,7 +56,35 @@ a:hover{
   --title: #fdfffc;
   --bgheader: #495057;
   --blue: #669bbc;
+  --sub-title: #898a85;
+  --icon: #898a85;
+  --card-bg: linear-gradient(to bottom left, #1a1f25, #4c5869);
+  --link-projects: #fff;
+  --icon-envelope: #d6ccc2;
+  --label-color: #d6ccc2;
+  --placeholder: #d6ccc2;
+  --input-bg: #495057;
+  --message-success: #5ca17e;
+  --message-success-bg: rgb(233, 242, 236);
 }
+.light{
+  --primary: #f4f0f0;
+  --secondary: #d5d7db;
+  --title: #060606;
+  --border: #c7c7bf;
+  --bgheader: #afb4b8;
+  --sub-title: #0a0a0a;
+  --icon: #565555;
+  --card-bg: linear-gradient(to bottom left, #bdc3cb, #f3f5f7);
+  --link-projects: #666464;
+  --icon-envelope: #575656;
+  --label-color: #575656;
+  --placeholder: #302f2f;
+  --input-bg: #f4f5f7;
+  --message-success: #365b48;
+  --message-success-bg: rgb(183, 208, 191);
+}
+
 
 body {
   background-color: var(--primary);
@@ -75,6 +103,10 @@ button:hover {
 }
 button:active{
   scale: 0.45;
+}
+button:disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 

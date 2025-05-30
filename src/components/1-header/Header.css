@@ -88,6 +88,17 @@ header div.fixed ul.model li:first-child {
 
 /* =====================
 icon button */
+header.flex .darkLight {
+    align-items: center;
+    gap: 1rem;
+
+}
+header.flex .darkLight p{
+    color: var(--title);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
 header .icon-menu, header .moon {
     background-color: var(--bgheader);
     height: 2.4rem;
@@ -96,12 +107,20 @@ header .icon-menu, header .moon {
     border: 1px solid rgb(244, 165, 96, 0.249);
     justify-content: center;
     text-align: center;
-    color: rgb(171, 166, 166);
+    color: rgb(70, 67, 67);
 }
+header button.moon .icon-sun1 {
+   color: rgb(239, 222, 144);
+}
+header button.moon .icon-sun1:hover {
+    color: rgb(241, 202, 25);
+ }
+
 header .icon-menu:hover, header button.moon:hover {
    color: var(--title);
    border: 1px solid rgb(244, 165, 96);
    transition: 0.3s;
+   background-color: rgb(78, 76, 76);
 }
 
 header .icon-cross{

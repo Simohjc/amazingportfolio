@@ -39,7 +39,7 @@ section.hero h1.title {
     color: var(--title);
 }
 section.hero p.sub-title {
-    color: #898a85;
+    color: var(--sub-title);
     font-size: 0.9rem;
     line-height: 1.65rem;
     margin-bottom: 32px;
@@ -50,7 +50,7 @@ section.hero .icons{
     align-items: center;
     gap: 1.5rem;
     font-size: 1.5rem;
-    color: #898a85;
+    color: var(--icon);
 }
 @keyframes animenu {
     0% {scale: 0;}
