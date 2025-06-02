@@ -1,5 +1,8 @@
 import React from 'react';
 import './Hero.css'; // Assuming you have a CSS file for styling
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+
+
 
 const Hero = () => {
   return (
@@ -21,7 +24,14 @@ const Hero = () => {
           <span className='icon-linkedin icon-linkedin'></span>
         </div>
        </div>
-       <div className='right-side animation border'>animation</div>
+       <div className='right-side'>
+        <DotLottieReact
+          src="src/animation/heroTheme.json"
+          autoplay={true}
+          loop={true}
+          className='hero-animation'
+        />
+       </div>
     </section>
   )
 }

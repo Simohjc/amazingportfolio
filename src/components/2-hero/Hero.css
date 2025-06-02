@@ -84,3 +84,8 @@ section.hero .icons .icon-linkedin:hover {
     cursor: pointer;
     transition: 0.4s;
 }
+section.hero .right-side {
+   width: 100rem;
+    animation: animenu 0.5s;
+    animation-delay: 0.5s;
+}

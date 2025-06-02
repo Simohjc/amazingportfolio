@@ -19,6 +19,7 @@ section.contact-us .sub{
 
 
 
+
 section.contact-us label{
     color: var(--label-color);
     font-size: 1.2rem;
@@ -67,21 +68,17 @@ section.contact-us .submit:hover {
 }
 .message-success {
     color: var(--message-success);
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: 3rem;
-    width: 50%;
-    margin-left: auto;
+    width: 45%;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
     font-weight: thin;
-    border: 0.5px solid #bae9d2;
     border-radius: 7px;
     padding: 1.5rem 0.5rem;
-    background-color: var(--message-success-bg);
+    
 }
-.light .message-success {
-    border: none;
-}
+
 @media screen and (max-width: 600px) {
    
     section.contact-us .form-section .first-email label {
